@@ -1,0 +1,29 @@
+How to get copy of code or clone a git repository.
+
+git clone <URL>
+
+Example: git clone https://github.com/this-is-you/repo.git
+
+How to create a branch
+
+cd repo
+
+git checkout -b <new-branch-name>
+
+For example: git checkout -b develop 
+
+How to add changes to the branch
+
+git add XMLParser.py
+
+Now commit those changes using the git commit command:
+
+git commit -m "Comment or Change details"
+
+How to Push changes to GitHub
+
+git push origin <branch-name>
+
+Example: git push origin develop
+
+Go to Gitbug and you'll see a Compare & pull request. Complete the merge.
